@@ -1,8 +1,10 @@
 Name:            applicative-extras
 Version:         0.1.5
 Synopsis:        Instances for Applicative
-Description:     Some instances for applicative functors and type-level composition.
+Description:     Some instances for applicative functors and type-level
+                 composition. Forkable on github.
 Category:        Control
+Homepage:        http://github.com/chriseidhof/applicative-extras/
 License:         BSD3
 License-file:    LICENSE
 Author:          Chris Eidhof <ce+hackage@tupil.com>, Russel O'Connor
