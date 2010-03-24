@@ -20,6 +20,12 @@ instance Applicative Failing where
    Failure msgs' <*> Success _ = Failure msgs'
    Success f <*> Success x = Success (f x)
 
+instance Alternative Failing where
+  empty                       = Failure []
+  (Success x) <|> _           = Success x
+  _           <|> (Success y) = Success y
+  (Failure x) <|> (Failure y) = Failure (x ++ y)
+
 maybeRead :: Read a => String -> Maybe a
 maybeRead s | [(i, "")] <- readsPrec 0 s = Just i
             | otherwise = Nothing
