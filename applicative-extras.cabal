@@ -1,5 +1,5 @@
 Name:            applicative-extras
-Version:         0.1.6
+Version:         0.1.7
 Synopsis:        Instances for Applicative
 Description:     Some instances for applicative functors and type-level
                  composition. Forkable on github.
@@ -11,7 +11,6 @@ Author:          Chris Eidhof <ce+hackage@tupil.com>, Russel O'Connor, Jeremy Sh
 Maintainer:      Chris Eidhof <ce+hackage@tupil.com>
 Exposed-Modules:   Control.Applicative.Compose
                  , Control.Applicative.Error
-                 , Control.Applicative.State
                  , Control.Applicative.Backwards
 Build-Type:      Simple
-Build-Depends:   base >= 3 && < 5, haskell98, mtl
+Build-Depends:   base >= 3 && < 5, haskell98, mtl >= 2 && < 3
