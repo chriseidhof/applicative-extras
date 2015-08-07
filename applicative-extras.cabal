@@ -11,6 +11,5 @@ Author:          Chris Eidhof <chris+hackage@eidhof.nl>, Russel O'Connor, Jeremy
 Maintainer:      Chris Eidhof <chris+hackage@eidhof.nl>
 Exposed-Modules:   Control.Applicative.Compose
                  , Control.Applicative.Error
-                 , Control.Applicative.Backwards
 Build-Type:      Simple
 Build-Depends:   base >= 3 && < 5
